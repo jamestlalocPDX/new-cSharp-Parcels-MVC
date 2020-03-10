@@ -14,20 +14,25 @@ namespace Parcels.Solutions.Controllers
 			public ActionResult Home() { return View(); }
 
 			[HttpGet("/parcel")]
-			public ActionResult Parcel() { return View(); }
+			public ActionResult Package() { return View(); }
     
-			[HttpPost("/reciept")]
+			[HttpPost("/receipt")]
 			public ActionResult Form(int height, int width, int length, int weight)
 			{
 				Parcel newParcel = new Parcel(height, width, length, weight);
 				int volume = newParcel.GetVolume();
 				double cost = newParcel.GetCost();
+				Parcel.ClearParcel();
 				newParcel = new Parcel(height, width, length, weight, volume, cost);
-				return RedirectToAction("Reciept", newParcel);
+				return RedirectToAction("Receipt");
 			}
 
-			[HttpGet("/reciept")]
-			public ActionResult Reciept() { return View(); }
+			[HttpGet("/receipt")]
+			public ActionResult Receipt()
+			{ 
+				List<Parcel> newParcelList = Parcel.ShowParcel();
+				return View(newParcelList); 
+			}
 		
 		}
 }

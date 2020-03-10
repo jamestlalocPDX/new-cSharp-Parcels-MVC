@@ -18,8 +18,8 @@
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Parcels.Solutions.TagHelpers.output.cache
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Parcels.Solutions.RazorCoreGenerate.cache
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Razor/Views/Home/Home.g.cshtml.cs
-/Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Razor/Views/Home/Parcel.g.cshtml.cs
-/Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Razor/Views/Home/Reciept.g.cshtml.cs
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Parcels.Solutions.RazorTargetAssemblyInfo.cs
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Parcels.Solutions.Views.pdb
 /Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Parcels.Solutions.csproj.CopyComplete
+/Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Razor/Views/Home/Receipt.g.cshtml.cs
+/Users/Guest/Desktop/Parcels.Solutions/obj/Debug/netcoreapp2.2/Razor/Views/Home/Package.g.cshtml.cs
